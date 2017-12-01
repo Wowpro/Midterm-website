@@ -1,0 +1,110 @@
+body {
+  background-color: black;
+  max-width: 100%;
+}
+
+.navbar {
+  margin: 0 auto;
+  width: 205px;
+}
+
+a {
+  border: 5px solid #323333;
+  border-radius: 20%;
+  color: white;
+  display: inline-table;
+  margin: auto;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #323333;
+  border-radius: 50%;
+  animation-name: aninav;
+  animation-delay: 0.5s;
+}
+
+@keyframes aninav {
+  100% {
+    background-color: #323333;
+    border-radius: 50%;
+  }
+}
+
+h1 {
+  color: white;
+}
+
+p {
+  background-color: #323333;
+  border: 5px solid #323333;
+  color: white;
+  padding: 50px;
+}
+
+h2 {
+  border: solid #323333;
+  color: white;
+  display: block;
+}
+
+img {
+  border-radius: 50%;
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+  width: 350px;
+}
+
+.box1 {
+  border: 10px solid #323333;
+}
+
+.terraria {
+  display: block;
+  float: left;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+
+.destiny {
+  display: block;
+  float: left;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+.Antorus {
+  display: block;
+  float: left;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+}
+.Thrall {
+  display: block;
+  float: left;
+  height: 200px;
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 200px;
+}
+.terraria2 {
+  display: block;
+  float: left;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+  padding-top:22px;
+}
+.destiny2{
+  display: block;
+  float: left;
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+  padding-top:23px;
+}
